@@ -1,8 +1,12 @@
 use Module::Build;
+use 5.008001;
 Module::Build->new
     ( module_name => 'XML::ExtOn',
     license => 'perl',
-   prereq => {
+    requires => {
+        'perl' => 5.008001,
+	},
+    prereq => {
 	      'XML::SAX'=>'0',
 	      'XML::SAX::Writer'=>0,
 	      'XML::Parser::PerlSAX'=>0,

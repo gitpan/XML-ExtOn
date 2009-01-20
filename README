@@ -1,4 +1,4 @@
-#$Id: README 390 2009-01-17 14:32:43Z zag $
+#$Id: README 402 2009-01-20 15:33:58Z zag $
 
 XML::ExtOn 
 ========================
@@ -16,7 +16,7 @@ To install this module type the following:
 
 DEPENDENCIES
 
-This module requires  Perl 5.005 or greater and libraries:
+This module requires  Perl 5.008001 or greater and libraries:
 
 * XML::SAX
 * Tie::UnionHash
