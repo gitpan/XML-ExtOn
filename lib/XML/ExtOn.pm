@@ -1,6 +1,6 @@
 package XML::ExtOn;
 
-#$Id: ExtOn.pm 398 2009-01-20 07:17:16Z zag $
+#$Id: ExtOn.pm 407 2009-01-28 17:31:01Z zag $
 
 =pod
 
@@ -222,7 +222,7 @@ sub create_pipe {
 
 use base 'XML::SAX::Base';
 use vars qw( $AUTOLOAD);
-$XML::ExtOn::VERSION = '0.08';
+$XML::ExtOn::VERSION = '0.09';
 ### install get/set accessors for this object.
 for my $key (qw/ context _objects_stack _cdata_mode _cdata_characters/) {
     no strict 'refs';

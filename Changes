@@ -1,6 +1,9 @@
-Revision history for Perl extension XML::PSAX.
-#$Id: Changes 402 2009-01-20 15:33:58Z zag $
+Revision history for Perl extension XML::ExtOn.
+#$Id: Changes 408 2009-01-28 17:35:34Z zag $
 
+0.09
+    - fix docs
+    - fix context in XML::ExtOn::IncXML
 0.08 
     - fix perl version ( https://rt.cpan.org/Ticket/Display.html?id=42547 )
 
