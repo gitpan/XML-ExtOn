@@ -11,9 +11,9 @@ lib/XML/ExtOn/TieAttrsName.pm
 Makefile.PL
 MANIFEST
 README
-t/008_PSAX::TieAttrs.t
-t/009_ExtOn::Attributes.t
-t/009_ExtOn::Context.t
+t/008_TieAttrs.t
+t/009_Attributes.t
+t/009_Context.t
 t/010_Element.t
 t/050.t
 t/060_ExtOn_skip_root.t

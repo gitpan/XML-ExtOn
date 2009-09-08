@@ -1,6 +1,6 @@
 ---
 name: XML-ExtOn
-version: 0.09
+version: 0.11
 author:
   - 'Zahatski Aliaksandr, <zag@cpan.org>'
 abstract: The handler for expansion of Perl SAX by objects.
@@ -13,10 +13,12 @@ requires:
   XML::Parser::PerlSAX: 0
   XML::SAX: 0
   XML::SAX::Writer: 0
+configure_requires:
+  Module::Build: 0.34
 provides:
   XML::ExtOn:
     file: lib/XML/ExtOn.pm
-    version: 0.09
+    version: 0.11
   XML::ExtOn::Attributes:
     file: lib/XML/ExtOn/Attributes.pm
   XML::ExtOn::Context:
@@ -32,7 +34,7 @@ provides:
     version: 0.01
   XML::ExtOn::TieAttrsName:
     file: lib/XML/ExtOn/TieAttrsName.pm
-generated_by: Module::Build version 0.3
+generated_by: Module::Build version 0.34
 meta-spec:
-  url: http://module-build.sourceforge.net/META-spec-v1.2.html
-  version: 1.2
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4

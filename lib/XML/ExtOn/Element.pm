@@ -1,6 +1,6 @@
 package XML::ExtOn::Element;
 
-#$Id: Element.pm 390 2009-01-17 14:32:43Z zag $
+#$Id: Element.pm 553 2009-06-15 14:15:54Z zag $
 
 =pod
 
@@ -80,7 +80,7 @@ for my $key (qw/ _context attributes _skip_content _delete_element _stack _wrap_
 sub new {
     my ( $class, %attr ) = @_;
     my $self = bless {}, $class;
-    $self->_context( $attr{context} ) or die "not exists context parametr";
+    $self->_context( $attr{context} ) or die "not exists context parameter";
     my $name = $attr{name};
     $self->attributes(
         new XML::ExtOn::Attributes::
