@@ -20,4 +20,5 @@ t/060_ExtOn_skip_root.t
 t/070_characters_cdata.t
 t/080_create_pipe.t
 t/090_add_content.t
+t/093_wrap_around.t
 META.yml
