@@ -1,6 +1,8 @@
 Revision history for Perl extension XML::ExtOn.
-#$Id: Changes 694 2010-01-18 17:47:09Z zag $
+#$Id: Changes 697 2010-01-23 11:15:47Z zag $
 
+0.13
+    -fix depends
 0.12
     - add wrap_around 
     - fix syntax

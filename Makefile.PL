@@ -8,6 +8,7 @@ WriteMakefile
           'PREREQ_PM' => {
                            'Tie::UnionHash' => '0',
                            'XML::Filter::SAX1toSAX2' => 0,
+                           'XML::Flow' => '0.85',
                            'XML::Parser::PerlSAX' => 0,
                            'XML::SAX' => '0',
                            'XML::SAX::Writer' => 0
