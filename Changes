@@ -1,6 +1,8 @@
 Revision history for Perl extension XML::ExtOn.
-#$Id: Changes 697 2010-01-23 11:15:47Z zag $
+#$Id: Changes 746 2010-04-22 07:26:20Z zag $
 
+0.14 
+    - add function split_pipe
 0.13
     -fix depends
 0.12

@@ -1,0 +1,14 @@
+~$
+\.bak$
+\.tar\.gz$
+
+(^|/)CVS(/|$)
+\.cvsignore$
+(^|/).svn(/|$)
+
+^Makefile$
+^blib
+^Build$
+^_build
+^MANIFEST.SKIP$^MYMETA.yml$
+^MYMETA.yml$

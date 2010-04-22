@@ -4,31 +4,13 @@ author:
   - 'Zahatski Aliaksandr, <zag@cpan.org>'
 configure_requires:
   Module::Build: 0.36
+dynamic_config: 0
 generated_by: 'Module::Build version 0.3601'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
 name: XML-ExtOn
-provides:
-  XML::ExtOn:
-    file: lib/XML/ExtOn.pm
-    version: 0.14
-  XML::ExtOn::Attributes:
-    file: lib/XML/ExtOn/Attributes.pm
-  XML::ExtOn::Context:
-    file: lib/XML/ExtOn/Context.pm
-  XML::ExtOn::Element:
-    file: lib/XML/ExtOn/Element.pm
-  XML::ExtOn::IncXML:
-    file: lib/XML/ExtOn/IncXML.pm
-  XML::ExtOn::SAX12ExtOn:
-    file: lib/XML/ExtOn/SAX12ExtOn.pm
-  XML::ExtOn::TieAttrs:
-    file: lib/XML/ExtOn/TieAttrs.pm
-    version: 0.01
-  XML::ExtOn::TieAttrsName:
-    file: lib/XML/ExtOn/TieAttrsName.pm
 requires:
   Tie::UnionHash: 0
   XML::Filter::SAX1toSAX2: 0
