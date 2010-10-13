@@ -1,6 +1,8 @@
 Revision history for Perl extension XML::ExtOn.
-#$Id: Changes 746 2010-04-22 07:26:20Z zag $
+#$Id: Changes 845 2010-10-13 08:11:10Z zag $
 
+0.15
+    - disallow escape entity in out XML
 0.14 
     - add function split_pipe
 0.13

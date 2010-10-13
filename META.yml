@@ -13,7 +13,7 @@ name: XML-ExtOn
 provides:
   XML::ExtOn:
     file: lib/XML/ExtOn.pm
-    version: 0.14
+    version: 0.15
   XML::ExtOn::Attributes:
     file: lib/XML/ExtOn/Attributes.pm
   XML::ExtOn::Context:
@@ -29,6 +29,8 @@ provides:
     version: 0.01
   XML::ExtOn::TieAttrsName:
     file: lib/XML/ExtOn/TieAttrsName.pm
+  XML::ExtOn::Writer:
+    file: lib/XML/ExtOn/Writer.pm
 requires:
   Tie::UnionHash: 0
   XML::Filter::SAX1toSAX2: 0
@@ -38,4 +40,4 @@ requires:
   XML::SAX::Writer: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.14
+version: 0.15

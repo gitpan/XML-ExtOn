@@ -1,6 +1,6 @@
 package XML::ExtOn::Element;
 
-#$Id: Element.pm 694 2010-01-18 17:47:09Z zag $
+#$Id: Element.pm 845 2010-10-13 08:11:10Z zag $
 
 =pod
 
@@ -12,7 +12,7 @@ XML::ExtOn::Element - Class for Element object.
 
     use XML::ExtOn;
     my $buf;
-    my $wrt = XML::SAX::Writer->new( Output => \$buf );
+    my $wrt = XML::ExtOn::Writer->new( Output => \$buf );
     my $ex_parser = new XML::ExtOn:: Handler => $wrt;
     
     ...

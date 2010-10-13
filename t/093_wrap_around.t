@@ -4,7 +4,7 @@
 #
 #       AUTHOR:  Aliaksandr P. Zahatski, <zahatski@gmail.com>
 #===============================================================================
-#$Id: 093_wrap_around.t 694 2010-01-18 17:47:09Z zag $
+#$Id: 093_wrap_around.t 845 2010-10-13 08:11:10Z zag $
 #use Test::More 'no_plan';    # last test to print
 
 use Test::More tests => 15;    # last test to print
@@ -15,7 +15,7 @@ use XML::Flow;
 
 BEGIN {
     use_ok 'XML::ExtOn', 'create_pipe';
-    use_ok 'XML::SAX::Writer';
+    use_ok 'XML::ExtOn::Writer';
 }
 
 sub create_p {
@@ -23,7 +23,7 @@ sub create_p {
     my $xml  = shift;
     my %args = @_;
     my $str1;
-    my $w1          = XML::SAX::Writer->new( Output => \$str1 );
+    my $w1          = XML::ExtOn::Writer->new( Output => \$str1 );
     my $psax_filter = $name->new( %args, );
     my $p           = create_pipe( $psax_filter, $w1 );
     $p->parse($xml);

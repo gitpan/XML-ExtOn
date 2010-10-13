@@ -1,4 +1,4 @@
-#$Id: 080_create_pipe.t 437 2009-02-03 16:54:12Z zag $
+#$Id: 080_create_pipe.t 845 2010-10-13 08:11:10Z zag $
 
 #use Test::More qw( no_plan);
 use Test::More tests => 6;
@@ -8,11 +8,11 @@ use Data::Dumper;
 
 BEGIN {
     use_ok 'XML::ExtOn', 'create_pipe';
-    use_ok 'XML::SAX::Writer';
+    use_ok 'XML::ExtOn::Writer';
 }
 
 my $str;
-my $w1     = XML::SAX::Writer->new( Output => \$str );
+my $w1     = XML::ExtOn::Writer->new( Output => \$str );
 my $h1     = new MyHandler1::;
 
 #check paraents 

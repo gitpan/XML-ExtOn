@@ -8,6 +8,7 @@ lib/XML/ExtOn/IncXML.pm
 lib/XML/ExtOn/SAX12ExtOn.pm
 lib/XML/ExtOn/TieAttrs.pm
 lib/XML/ExtOn/TieAttrsName.pm
+lib/XML/ExtOn/Writer.pm
 Makefile.PL
 MANIFEST
 MANIFEST.SKIP

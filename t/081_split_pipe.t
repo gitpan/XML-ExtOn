@@ -4,7 +4,7 @@
 #
 #       AUTHOR:  Aliaksandr P. Zahatski, <zahatski@gmail.com>
 #===============================================================================
-#$Id: 081_split_pipe.t 745 2010-04-22 07:25:39Z zag $
+#$Id: 081_split_pipe.t 845 2010-10-13 08:11:10Z zag $
 #use Test::More qw( no_plan);
 use Test::More tests => 3;
 use strict;
@@ -13,7 +13,7 @@ use Data::Dumper;
 
 BEGIN {
     use_ok 'XML::ExtOn', 'split_pipe', 'create_pipe';
-    use_ok 'XML::SAX::Writer';
+    use_ok 'XML::ExtOn::Writer';
 }
 
 my $filter = create_pipe( 'MyHandler1', 'MyHandler2','MyHandler3');
