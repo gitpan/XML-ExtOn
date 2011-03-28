@@ -1,6 +1,8 @@
 Revision history for Perl extension XML::ExtOn.
-#$Id: Changes 845 2010-10-13 08:11:10Z zag $
+#$Id: Changes 936 2011-03-28 06:25:03Z zag $
 
+0.16
+    - fix distr
 0.15
     - disallow escape entity in out XML
 0.14 

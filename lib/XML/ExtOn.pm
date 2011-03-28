@@ -1,6 +1,6 @@
 package XML::ExtOn;
 
-#$Id: ExtOn.pm 845 2010-10-13 08:11:10Z zag $
+#$Id: ExtOn.pm 936 2011-03-28 06:25:03Z zag $
 
 =pod
 
@@ -275,7 +275,7 @@ sub split_pipe {
 
 use base 'XML::SAX::Base';
 use vars qw( $AUTOLOAD);
-$XML::ExtOn::VERSION = '0.15';
+$XML::ExtOn::VERSION = '0.16';
 ### install get/set accessors for this object.
 for my $key (
     qw/ context _objects_stack _cdata_mode _cdata_characters _root_stack /)

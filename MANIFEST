@@ -11,8 +11,6 @@ lib/XML/ExtOn/TieAttrsName.pm
 lib/XML/ExtOn/Writer.pm
 Makefile.PL
 MANIFEST
-MANIFEST.SKIP
-MYMETA.yml
 README
 t/008_TieAttrs.t
 t/009_Attributes.t
