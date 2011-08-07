@@ -1,6 +1,8 @@
 Revision history for Perl extension XML::ExtOn.
-#$Id: Changes 936 2011-03-28 06:25:03Z zag $
+#$Id: Changes 966 2011-08-07 18:07:19Z zag $
 
+0.17
+    - fix namespaces
 0.16
     - fix distr
 0.15
